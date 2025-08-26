@@ -705,6 +705,8 @@ def main():
         config_file = st.file_uploader("Upload Config File (optional)", type=["yaml", "yml"])
         
         analyze_button = st.button("Analyze Email", type="primary")
+
+        developed_by = st.text("Developed by Nijat Mansimov")
     
     # Main content area
     if analyze_button and uploaded_file:
