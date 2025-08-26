@@ -22,14 +22,17 @@ Bu proqram, .eml və .msg formatlı e-poçt fayllarını təhlil etmək üçün 
 
 ## Quraşdırma
 
+<img width="1095" height="695" alt="full_panel" src="https://github.com/user-attachments/assets/c1bd69f5-2bcb-46b0-a884-3af10c718f20" />
+
 <img width="610" height="238" alt="summary_panel" src="https://github.com/user-attachments/assets/c1737f8a-1632-459b-a3d4-e1611acfcd04" />
+
+<img width="1067" height="316" alt="ioc2_panel" src="https://github.com/user-attachments/assets/48642970-3cba-49c6-a934-9a5778149476" />
 
 <img width="1070" height="253" alt="attachments_panel" src="https://github.com/user-attachments/assets/44480e01-e6ac-4156-91cf-6eef3153c840" />
 
 <img width="726" height="423" alt="enrichment_panel" src="https://github.com/user-attachments/assets/5815072d-7741-48cb-8b1f-3d0278bb4f42" />
 
 <img width="1089" height="499" alt="dashboard_panel" src="https://github.com/user-attachments/assets/2118f76f-227d-4baf-948d-483e3f4bb4b9" />
-
 
 ### Tələb Olunan Kitabxanalar
 
