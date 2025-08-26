@@ -744,7 +744,7 @@ class MplCanvas(FigureCanvas):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Arcanum Phishing Analyzer - Desktop")
+        self.setWindowTitle("Phishing Email Analyzer - Desktop")
         self.setMinimumSize(1100, 700)
         self.current_result: Optional[Dict[str, Any]] = None
         self.current_email_path: Optional[str] = None
@@ -1053,7 +1053,7 @@ class MainWindow(QMainWindow):
             row[6].text = ", ".join(flags)
 
         # Add charts: save current canvas to temp PNGs
-        tmp_dir = Path(os.getcwd()) / "_tmp_arcanum_images"
+        tmp_dir = Path(os.getcwd()) / "_tmp_analyzer_images"
         tmp_dir.mkdir(exist_ok=True)
         chart_path = str(tmp_dir / "chart.png")
         self.chart_canvas.fig.savefig(chart_path, dpi=150, bbox_inches="tight")
