@@ -592,7 +592,14 @@ def render_markdown(email_obj: Dict[str,Any], iocs: Dict[str,List[str]], att_res
     md.append(f"- To: {email_obj.get('to','')}")
     md.append(f"- Date: {email_obj.get('date')}")
     md.append(f"- Score: {score}")
-    md.append(f"- MITRE ATT&CK: {', '.join([f'{t} ({ATTACK_TECHNIQUES.get(t,\"?\")})' for t in tags])}")
+    items = []
+    for t in tags:
+        technique = ATTACK_TECHNIQUES.get(t, "?")
+        items.append(f"{t} ({technique})")
+    
+    line = "- MITRE ATT&CK: " + ", ".join(items)
+    md.append(line)
+    #md.append(f"- MITRE ATT&CK: {', '.join([f'{t} ({ATTACK_TECHNIQUES.get(t,\"?\")})' for t in tags])}")
     md.append("\n## Findings")
     for n in notes:
         md.append(f"- {n}")
@@ -895,7 +902,14 @@ class MainWindow(QMainWindow):
         summary_lines.append(f"To: {email_obj.get('to','')}")
         summary_lines.append(f"Date: {email_obj.get('date')}")
         summary_lines.append(f"Score: {score}")
-        summary_lines.append("MITRE ATT&CK: " + ", ".join([f"{t} ({ATTACK_TECHNIQUES.get(t,'?')})" for t in tags]))
+        items = []
+        for t in tags:
+            technique = ATTACK_TECHNIQUES.get(t, "?")
+            items.append(f"{t} ({technique})")
+        
+        summary_line = "MITRE ATT&CK: " + ", ".join(items)
+        summary_lines.append(summary_line)
+        # summary_lines.append("MITRE ATT&CK: " + ", ".join([f"{t} ({ATTACK_TECHNIQUES.get(t,'?')})" for t in tags]))
         summary_lines.append("\nFindings:")
         for n in notes:
             summary_lines.append(f"- {n}")
