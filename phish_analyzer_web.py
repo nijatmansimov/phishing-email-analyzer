@@ -685,7 +685,7 @@ def main():
     
     st.title("📧 Phishing Email Analyzer")
     st.markdown("Analyze .eml and .msg files for phishing indicators")
-    
+    st.markdown("Developed by Nijat Mansimov")
     # Initialize session state
     if "analysis_result" not in st.session_state:
         st.session_state.analysis_result = None
