@@ -4,6 +4,8 @@
 
 Bu proqram, .eml və .msg formatlı e-poçt fayllarını təhlil etmək üçün hazırlanmış masaüstü tətbiqidir. Təhlil prosesi zamanı e-poçtun daxilindəki URL-lər, IP ünvanları, domainlər və hash dəyərləri aşkar edilir, həmçinin fayl əlavələri (attachments) yoxlanılır. Proqram, asinxron şəkildə müxtəlif təhlükəsizlik mənbələri ilə (VirusTotal, OTX, urlscan, GreyNoise, AbuseIPDB, WHOIS) əlaqə quraraq əlavə məlumatlar əldə edir və nəticələri vizual şəkildə təqdim edir.
 
+WEB URL: https://improved-engine-9745rj5wjpr7c7gp6-8502.app.github.dev
+
 ## Xüsusiyyətlər
 
 - **Dəstəklənən Fayl Formatları**: .eml, .msg
