@@ -4,6 +4,7 @@
 Mansimov Phishing Email Analyzer - Web Version (Streamlit)
 pip install streamlit matplotlib python-docx eml-parser extract-msg oletools yara-python pefile beautifulsoup4 lxml tldextract chardet aiohttp aiodns requests[security] python-whois dnspython pyyaml rich jinja2 python-dateutil
 
+
 - Load .eml/.msg
 - Analyze (async) with URL expansion, YARA, enrichment (VT, OTX, urlscan, GN, AbuseIPDB, WHOIS)
 - Visualize IOCs, score, ATT&CK tags, attachments
