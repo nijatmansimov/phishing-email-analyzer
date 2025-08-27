@@ -1,62 +1,199 @@
-Return-Path: <security@microsoft-com.support>
-Received: from mailserver01.provider.net (mailserver01.provider.net [192.168.1.100])
-	by mx.google.com with ESMTPS id abc123def456
-	for <user@example.com>; Mon, 15 Jan 2024 14:30:22 +0400
-From: Microsoft Security <security@microsoft-com.support>
-To: User <user@example.com>
-Subject: Urgent: Suspicious Activity Detected on Your Account
-Date: Mon, 15 Jan 2024 14:28:15 +0400
-Message-ID: <20240115142815.12345@microsoft-com.support>
-MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="----=_NextPart_000_ABCD_12345678"
+Return-Path: <security@notice-appleid-support.com>
+Delivered-To: victim.email@gmail.com
+Received: from mailer12.phantom-network.co (phantom-network.co. [178.128.44.122])
+        by mx.google.com with ESMTPS id n12sm1234567pge.99.2023.11.15.14.30.00
+        for <victim.email@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Nov 2023 14:30:01 -0800 (PST)
+Received-SPF: neutral (google.com: 178.128.44.122 is neither permitted nor denied by best guess record for domain of security@notice-appleid-support.com) client-ip=178.128.44.122;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 178.128.44.122 is neither permitted nor denied by best guess record for domain of security@notice-appleid-support.com) smtp.mailfrom=security@notice-appleid-support.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=apple.com
+From: "Apple ID Support" <security@notice-appleid-support.com>
+To: "Victim User" <victim.email@gmail.com>
+Subject: =?utf-8?B?894gVVJHRU5UOiBBY2NvdW50IFZpb2xhdGlvbiBEZXRlY3RlZCDwn5qA?=
+Date: Wed, 15 Nov 2023 14:30:00 -0800
+Message-ID: <a48f1c17d8b64f7d9a3b2c6d7e8f9a1b@phishing.net>
+X-Priority: 1 (Highest)
 X-Mailer: Microsoft Outlook 16.0
-X-Priority: 1 (High)
-Authentication-Results: google.com; spf=fail smtp.mailfrom=microsoft-com.support
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_NextPart_Malicious_Phishing_Message"
+X-Authenticated-Id: victim.email@gmail.com
 
 This is a multi-part message in MIME format.
 
-------=_NextPart_000_ABCD_12345678
+------=_NextPart_Malicious_Phishing_Message
+Content-Type: multipart/alternative; boundary="----=_NextPart_Text_HTML"
+
+------=_NextPart_Text_HTML
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear User,
+
+Our system has detected unusual login activity on your Apple ID from a new dev=
+ice in a foreign location (China). For your security, we have temporarily pla=
+ced restrictions on your account.
+
+You must verify your identity to restore full access and prevent permanent ac=
+count suspension.
+
+To review the activity and verify your account, please open the attached form=
+ and follow the instructions.
+
+If you did not initiate this activity, please contact us immediately via the =
+phone number on our official website (do not reply to this email).
+
+Sincerely,
+Apple Support
+
+------=_NextPart_Text_HTML
 Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<title>URGENT: Account Violation Detected</title>
+</head>
+<body style=3D"font-family: Arial, sans-serif; line-height: 1.6; color: #333=
+; margin: 0; padding: 20px; background-color: #f5f5f5;">
+<center>
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1p=
+x solid #ddd; border-radius: 4px;">
+<tr>
+<td style=3D"padding: 20px;">
+
+<!-- Fake Apple Header -->
+<table width=3D"100%">
+<tr>
+<td><img src=3D"https://fake-cdn.phishing-net.com/apple_logo.png" alt=3D"App=
+le" width=3D"40" height=3D"40"></td>
+<td align=3D"right" style=3D"color: #888; font-size: 12px;">Reference #: APP=
+-ID-9873-6542</td>
+</tr>
+</table>
+
+<h1 style=3D"color: #d04423;">=F0=9F=94=B4 Action Required: Suspicious Activ=
+ity Detected</h1>
+
+<p>Dear User,</p>
+
+<p>Our system has detected unusual login activity on your Apple ID <strong>v=
+ictim.email@gmail.com</strong> from a new device in <strong>Beijing, CN</str=
+ong> on November 15, 2023, at 2:15 PM PST.</p>
+
+<p>For your security, we have temporarily placed restrictions on your accoun=
+t. You must verify your identity to restore full access.</p>
+
+<center>
+<a href=3D"http://185.143.223.41:8080/secure-appleid-verification/index.htm=
+l" style=3D"display: inline-block; padding: 12px 24px; background-color: #0=
+07aff; color: white; text-decoration: none; border-radius: 6px; font-weight=
+: bold; margin: 15px 0;">Verify Your Identity Now</a>
+</center>
+
+<p>Alternatively, you can open and fill out the secure verification form att=
+ached to this email (<strong>AppleID_Verification_Form.pdf</strong>).</p>
+
+<p style=3D"background-color: #f9f9f9; padding: 15px; border-left: 4px soli=
+d #007aff; font-size: 14px;">
+<strong>Note:</strong> If we do not receive verification within <strong style=
+=3D"color: #d04423;">24 hours</strong>, your account may be permanently susp=
+ended per our Terms of Service.
+</p>
+
+<p>If you did not initiate this activity, <a href=3D"http://appleid.apple.c=
+om.phishing-site-support.com.scam.xyz/help" style=3D"color: #007aff;">click=
+ here to secure your account</a>.</p>
+
+<hr style=3D"border: none; border-top: 1px solid #eee; margin: 20px 0;">
+<p style=3D"font-size: 12px; color: #888;">
+This is an automated message. Please do not reply to this email. Apple will =
+never ask for your password or verification via email.<br>
+=C2=A9 2023 Apple Inc. All rights reserved.
+</p>
+
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+------=_NextPart_Text_HTML--
+
+------=_NextPart_Malicious_Phishing_Message
+Content-Type: application/pdf; name="AppleID_Verification_Form.pdf"
 Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="AppleID_Verification_Form.pdf"
 
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8
-bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+QWNjb3VudCBTZWN1
-cml0eSBBbGVydDwvdGl0bGU+CiAgICA8c3R5bGU+CiAgICAgICAgYm9keSB7
-IGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgbWFyZ2luOiAwOyBw
-YWRkaW5nOiAyMHB4OyB9CiAgICAgICAgLmNvbnRhaW5lciB7IG1heC13aWR0
-aDogNjAwcHg7IG1hcmdpbjogMCBhdXRvOyBiYWNrZ3JvdW5kLWNvbG9yOiAj
-ZmZmOyBwYWRkaW5nOiAzMHB4OyB9CiAgICAgICAgLmhlYWRlciB7IHRleHQt
-YWxpZ246IGNlbnRlcjsgbWFyZ2luLWJvdHRvbTogMzBweDsgfQogICAgICAg
-IC5idG4geyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA3OEQ3OyBjb2xvcjogd2hp
-dGU7IHBhZGRpbmc6IDE1cHggMzBweDsgdGV4dC1kZWNvcmF0aW9uOiBub25l
-OyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbi10b3A6IDIwcHg7IH0K
-ICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8ZGl2IGNsYXNzPSJj
-b250YWluZXIiPgogICAgICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAg
-ICAgICAgIDxoMT5TdXNwaWNpb3VzIEFjdGl2aXR5IERldGVjdGVkPC9oMT4K
-ICAgICAgICA8L2Rpdj4KICAgICAgICA8cD5EZWFyIFVzZXIsPC9wPgogICAg
-ICAgIDxwPldlIGRldGVjdGVkIHVudXN1YWwgYWN0aXZpdHkgb24geW91ciBN
-aWNyb3NvZnQgYWNjb3VudCBmcm9tIGEgbmV3IGRldmljZSBhdCA8c3Ryb25n
-PjE5Mi4wLjIuMTU8L3N0cm9uZz4gKExvY2F0aW9uOiBNb3Njb3csIFJ1c3Np
-YSkgb24gSmFudWFyeSAxNSwgMjAyNCBhdCAyOjE1IFBNIFVUQy48L3A+CiAg
-ICAgICAgPHA+SWYgdGhpcyB3YXMgeW91LCB5b3UgY2FuIGlnbm9yZSB0aGlz
-IGFsZXJ0LiBPdGhlcndpc2UsIHdlIHJlY29tbWVuZCB5b3UgdG8gc2VjdXJl
-IHlvdXIgYWNjb3VudCBpbW1lZGlhdGVseS48L3A+CiAgICAgICAgPHA+UGxl
-YXNlIGNsaWNrIHRoZSBidXR0b24gYmVsb3cgdG8gdmVyaWZ5IHlvdXIgYWNj
-b3VudDo8L3A+CiAgICAgICAgPHA+PGEgaHJlZj0iaHR0cHM6Ly9taWNyb3Nv
-ZnQtc2VjdXJpdHkudmVyaWZ5LmNvbS91c2VyP3Rva2VuPWFiY2RlZjEyMzQ1
-IiBjbGFzcz0iYnRuIj5WZXJpZnkgQWNjb3VudDwvYT48L3A+CiAgICAgICAg
-PHA+QWx0ZXJuYXRpdmVseSwgeW91IGNhbiB2aXNpdDogPGJyPmh0dHBzOi8v
-c2VjdXJpdHkubWljcm9zb2Z0LmNvbS92ZXJpZnk8L3A+CiAgICAgICAgPHA+
-VGhpcyBzZWN1cml0eSBhbGVydCB3aWxsIGV4cGlyZSBpbiAyNCBob3Vycy48
-L3A+CiAgICAgICAgPHA+U2luY2VyZWx5LDxiciZTZWN1cml0eSBUZWFtPGJy
-Pk1pY3Jvc29mdCBDb3Jwb3JhdGlvbjwvcD4KICAgIDwvZGl2Pgo8L2JvZHk+
-CjwvaHRtbD4K
-
-------=_NextPart_000_ABCD_12345678
-Content-Type: application/zip; name="Security_Update_2024.zip"
+JVBERi0xLjcNCiW1tbW2DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+Zyhlbi1VUykgL1N0cnVjdFRyZWVSb290IDIyIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4v
+TWV0YWRhdGEgMjMgMCBSL1ZpZXdlclByZWZlcmVuY2VzIDI0IDAgUj4+DQplbmRvYmoNCjIgMCBv
+YmoNCjw8L1R5cGUvUGFnZXMvQ291bnQgMS9LaWRzWyAzIDAgUl0gPj4NCmVuZG9iag0KMyAwIG9i
+ag0KPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+
+Pi9FeHRHU3RhdGU8PC9HUzcgNyAwIFIvR1M4IDggMCBSPj4vUHJvY1NldFsvUERGL1RleHQvSW1h
+Z2VCL0ltYWdlQy9JbWFnZUldID4+L01lZGlhQm94WyAwIDAgNTk1LjMyIDg0MS45Ml0gL0NvbnRl
+bnRzIDQgMCBSL0dyb3VwPDwvVHlwZS9Hcm91cC9TL1RyYW5zcGFyZW5jeS9DUy9EZXZpY2VSR0I+
+Pi9UYWJzL1MvU3RydWN0UGFyZW50cyAwPj4NCmVuZG9iag0KNCAwIG9iag0KPDwvRmlsdGVyL0Zs
+YXRlRGVjb2RlL0xlbmd0aCAxMTY+Pg0Kc3RyZWFtDQp4nCvkMlAwUDC1NNUzNVUwMDJUMDS3MjEy
+Vwh3D1EI5AIAJQcF5A0KZW5kc3RyZWFtDQplbmRvYmoNCjUgMCBvYmoNCjw8L1R5cGUvRm9udC9T
+dWJ0eXBlL1RydWVUeXBlL05hbWUvRjEvQmFzZUZvbnQvQXJpYWwtQm9sZE1UL0VuY29kaW5nL1dp
+bkFuc2lFbmNvZGluZy9Gb250RGVzY3JpcHRvciA2IDAgUi9GaXJzdENoYXIgMzIvTGFzdENoYXIg
+MzIvV2lkdGhzIDE5IDAgUj4+DQplbmRvYmoNCjYgMCBvYmoNCjw8L1R5cGUvRm9udERlc2NyaXB0
+b3IvRm9udE5hbWUvQXJpYWwtQm9sZE1UL0ZsYWdzIDMyL0l0YWxpY0FuZ2xlIDAvQXNjZW50IDky
+OC9EZXNjZW50IC0yMzYvQ2FwSGVpZ2h0IDc1OC9BdmdXaWR0aCA0NzEvTWF4V2lkdGggMjY2NS9G
+b250V2VpZ2h0IDcwMC9YSGVpZ2h0IDI1MC9TdGVtViA0Ny9Gb250QkJveFsgLTYyOCAtMjM2IDIw
+MzcgNzU4XSAvRm9udEZpbGUyIDIwIDAgUj4+DQplbmRvYmoNCjcgMCBvYmoNCjw8L1R5cGUvRXh0
+R1N0YXRlL0JNL05vcm1hbC9jYSAxPj4NCmVuZG9iag0KOCAwIG9iag0KPDwvVHlwZS9FeHRHU3Rh
+dGUvQk0vTm9ybWFsL0NBIDE+Pg0KZW5kb2JqDQo5IDAgb2JqDQo8PC9UeXBlL0ZvbnQvU3VidHlw
+ZS9UcnVlVHlwZS9OYW1lL0YyL0Jhc2VGb250L0FyaWFsLUJvbGRNVC9FbmNvZGluZy9XaW5BbnNp
+RW5jb2RpbmcvRm9udERlc2NyaXB0b3IgMTAgMCBSL0ZpcnN0Q2hhciAzMi9MYXN0Q2hhciAxMjIv
+V2lkdGhzIDIxIDAgUj4+DQplbmRvYmoNCjEwIDAgb2JqDQo8PC9UeXBlL0ZvbnREZXNjcmlwdG9y
+L0ZvbnROYW1lL0FyaWFsLUJvbGRNVC9GbGFncyAzMi9JdGFsaWNBbmdsZSAwL0FzY2VudCA5Mjgv
+RGVzY2VudCAtMjM2L0NhcEhlaWdodCA3NTgvQXZnV2lkdGggNDcxL01heFdpZHRoIDI2NjUvRm9u
+dFdlaWdodCA3MDAvWEhlaWdodCAyNTAvU3RlbVYgNDcvRm9udEJCb3hbIC02MjggLTIzNiAyMDM3
+IDc1OF0gL0ZvbnRGaWxlMiAyMCAwIFI+Pg0KZW5kb2JqDQoxMSAwIG9iag0KPDwvVHlwZS9Gb250
+L1N1YnR5cGUvVHJ1ZVR5cGUvTmFtZS9GMy9CYXNlRm9udC9BcmlhbE1UL0VuY29kaW5nL1dpbkFu
+c2lFbmNvZGluZy9Gb250RGVzY3JpcHRvciAxMiAwIFIvRmlyc3RDaGFyIDMyL0xhc3RDaGFyIDMy
+L1dpZHRocyAyMiAwIFI+Pg0KZW5kb2JqDQoxMiAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRv
+ci9Gb250TmFtZS9BcmlhbE1UL0ZsYWdzIDMyL0l0YWxpY0FuZ2xlIDAvQXNjZW50IDkyOC9EZXNj
+ZW50IC0yMzYvQ2FwSGVpZ2h0IDc1OC9BdmdXaWR0aCA0NDEvTWF4V2lkdGggMjY2NS9Gb250V2Vp
+Z2h0IDQwMC9YSGVpZ2h0IDI1MC9TdGVtViA0NC9Gb250QkJveFsgLTY2NSAtMjM2IDIwMDAgNzU4
+XSAvRm9udEZpbGUyIDIwIDAgUj4+DQplbmRvYmoNCjEzIDAgb2JqDQo8PC9UeXBlL0ZvbnQvU3Vi
+dHlwZS9UcnVlVHlwZS9OYW1lL0Y0L0Jhc2VGb250L0FyaWFsTVQvRW5jb2RpbmcvV2luQW5zaUVu
+Y29kaW5nL0ZvbnREZXNjcmlwdG9yIDE0IDAgUi9GaXJzdENoYXIgMzIvTGFzdENoYXIgMTIyL1dp
+ZHRocyAyMyAwIFI+Pg0KZW5kb2JqDQoxNCAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRvci9G
+b250TmFtZS9BcmlhbE1UL0ZsYWdzIDMyL0l0YWxpY0FuZ2xlIDAvQXNjZW50IDkyOC9EZXNjZW50
+IC0yMzYvQ2FwSGVpZ2h0IDc1OC9BdmdXaWR0aCA0NDEvTWF4V2lkdGggMjY2NS9Gb250V2VpZ2h0
+IDQwMC9YSGVpZ2h0IDI1MC9TdGVtViA0NC9Gb250QkJveFsgLTY2NSAtMjM2IDIwMDAgNzU4XSAv
+Rm9udEZpbGUyIDIwIDAgUj4+DQplbmRvYmoNCjE1IDAgb2JqDQo8PC9UeXBlL0ZvbnQvU3VidHlw
+ZS9UcnVlVHlwZS9OYW1lL0Y1L0Jhc2VGb250L0FyaWFsLUJvbGRNVC9FbmNvZGluZy9XaW5BbnNp
+RW5jb2RpbmcvRm9udERlc2NyaXB0b3IgMTYgMCBSL0ZpcnN0Q2hhciAzMi9MYXN0Q2hhciA0Ni9X
+aWR0aHMgMjQgMCBSPj4NCmVuZG9iag0KMTYgMCBvYmoNCjw8L1R5cGUvRm9udERlc2NyaXB0b3Iv
+Rm9udE5hbWUvQXJpYWwtQm9sZE1UL0ZsYWdzIDMyL0l0YWxpY0FuZ2xlIDAvQXNjZW50IDkyOC9E
+ZXNjZW50IC0yMzYvQ2FwSGVpZ2h0IDc1OC9BdmdXaWR0aCA0NzEvTWF4V2lkdGggMjY2NS9Gb250
+V2VpZ2h0IDcwMC9YSGVpZ2h0IDI1MCv=
+[TRUNCATED BASE64 FOR BREVITY - ACTUAL FILE WOULD BE LONGER]
+------=_NextPart_Malicious_Phishing_Message
+Content-Type: text/calendar; name="invite.ics"
 Content-Transfer-Encoding: base64
-Content-Disposition: attachment; filename="Security_Update_2024.zip"
+Content-Disposition: attachment; filename="invite.ics"
 
-UEsDBBQAAAAIA...
-[Base64 encoded zip file content would be here]
-------=_NextPart_000_ABCD_12345678--
+QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL1BoaXNoaW5nIE5ldHdvcmsv
+L0VNCk1FVEhPRDpSRVFVRVNUDQpCRUdJTjpWRVZFTlQNClVJRDphMTIzNDU2Nzg5QGZha2UuY29t
+DQpEVFNUQU1QOjIwMjMxMTE1VDIyMzAwMA0KRFQxOjIwMjMxMTE1VDIyMzAwMA0KQVRURU5ERUU7
+Q1VUVD0UQU1PVU5UOjENCkRFU0NSSVBUSU9OOllvdXIgQXBwbGUgSUQgdmVyaWZpY2F0aW9uIGlz
+IHJlcXVpcmVkLg0KU1VNTUFSWTpBcHBsZSBJRCBWZXJpZmljYXRpb24gUmVtaW5kZXINClBSSU9S
+SVRZOjENCkNMQVNTOpBVQkxJQw0KQkVHSU46VkFMRUFSTQ0KVFJJR0dFUjstUFQxNUgNClhDT01Q
+T05FTlRTOlZFVkVOVA0KRU5EOlZBTEVBUk0NCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+------=_NextPart_Malicious_Phishing_Message
+Content-Type: application/x-zip-compressed; name="Secure_Form.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Secure_Form.zip"
+
+UEsDBBQAAAAIAIx7bVWn64hKCgAAABIAAAAIAAAAaW5kZXguaHRtbDtib2R5e21hcmdpbjo1cHg7
+[TRUNCATED BASE64 FOR BREVITY - ACTUAL FILE WOULD BE LONGER]
+------=_NextPart_Malicious_Phishing_Message--
